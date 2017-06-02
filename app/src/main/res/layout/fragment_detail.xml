@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_size"
+    tools:context="habbitatvalley.com.zapperdisplaydata.fragments.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/firstNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/fname_display"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/firstname"
+            android:layout_marginStart="@dimen/margin_size"
+            android:layout_toEndOf="@+id/firstNameTitle"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lastnameDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/lname_display"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/lastname"
+            android:layout_marginStart="@dimen/margin_size"
+            android:layout_toEndOf="@+id/lastnameDisplay"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ageDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/age_display"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/age"
+            android:layout_marginStart="@dimen/margin_size"
+            android:layout_toEndOf="@+id/ageDisplay"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/favouriteColourDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/favouriteColour_display"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/favouriteColour"
+            android:layout_marginStart="@dimen/margin_size"
+            android:layout_toEndOf="@+id/favouriteColourDisplay"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>
